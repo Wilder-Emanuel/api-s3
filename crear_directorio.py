@@ -1,4 +1,4 @@
-def crear_directorio(event, context):
+def lambda_handler(event, context):
     try:
         # Entrada
         bucket_name = event['body']['bucket_name']  # Nombre del bucket
